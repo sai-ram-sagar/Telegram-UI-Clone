@@ -1,0 +1,32 @@
+/* components/Sidebar.css */
+.sidebar {
+    width: 350px;
+    /* background-color: #f5f5f5; */
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+  
+  .sidebar.dark {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .sidebar-header {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .chat-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  
+  
+  

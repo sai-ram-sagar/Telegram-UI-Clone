@@ -1,0 +1,8 @@
+.chat-list{
+    background-color: rgb(255, 255, 255);
+    scrollbar-width: none;
+}
+
+.chat-list.dark{
+    background-color: black;
+}

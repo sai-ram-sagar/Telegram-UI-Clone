@@ -1,0 +1,138 @@
+.chat-window {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.chat-window.dark {
+  color: #fff;
+}
+
+.date-group {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.date-separator {
+  align-self: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: max-content;
+}
+
+.date-separator.dark {
+  color: #000;
+}
+
+.message {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 16px;
+  max-width: 70%;
+  width: fit-content;
+}
+
+.message.dark {
+  background-color: #444;
+}
+
+.right-side {
+  align-self: flex-end;
+  background-color: rgb(157, 255, 255);
+  border-bottom-right-radius: 0;
+  margin-right: 5px;
+}
+
+.right-side.dark{
+  background-color: rgb(61, 0, 89);
+}
+
+.left-side {
+  align-self: flex-start;
+  background-color: #ffffff;
+  border-bottom-left-radius: 0;
+  margin-left: 5px;
+}
+
+.left-side.dark{
+  background-color: #333;
+}
+
+.timestamp {
+  font-size: 0.8em;
+  color: #888;
+  
+}
+
+.timestamp.dark {
+  color: #bbb;
+}
+
+
+.chat-window-header{
+  height: 60px;
+  width: calc(100vw - 351px);
+  background-color: #ffffff;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+  h3{
+    margin-left: 10px;
+  }
+}
+.chat-window-header.dark{
+  background-color: #000;
+}
+
+.fa-icon{
+    padding-right: 2vw;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: calc(100vw - 351px);
+}
+
+.message-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.send-button {
+  background-color: transparent;
+  padding-right: 20px;
+}
+
+.message-input.dark {
+  background-color: rgb(94, 0, 138);
+}
+
+.message-input input.dark{
+  color: #ffffff;
+}
